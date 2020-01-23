@@ -1,0 +1,15 @@
+---
+
+dependencies: []
+
+galaxy_info:
+  author: vdzhorov
+  description: Generate /etc/hosts on a target host
+  company: "Delta.BG"
+  license: "license (MIT)"
+  min_ansible_version: 2.5
+  platforms:
+    - all
+  galaxy_tags:
+    - linux
+    - hosts
