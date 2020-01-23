@@ -1,0 +1,9 @@
+---
+
+- name: Setup /etc/hosts
+  template:
+    src: "hosts.j2"
+    dest: "{{ hosts_file_location }}"
+    mode: 0644
+    owner: root
+    group: root
