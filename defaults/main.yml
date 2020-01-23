@@ -1,0 +1,4 @@
+---
+
+hosts_file_location: "/etc/hosts"
+host_group: "all" # You can iterate over specific group or "all" hosts in inventory hosts file.
